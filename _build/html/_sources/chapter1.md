@@ -14,5 +14,7 @@ Using Jupyter software, we created a book to demonstrate 1) How to openly publis
 ## Results
 The program will import mortality data from the national Bureau of Economic Research for any specified range between the years of 1959 and 2017. For instance, the user may enter 1960 and 1970 and the program will import mortality data from each of the years between 1960 and 1970. Then, the program will construct a line graph to show the trends in mortality over the user-specified time frame.
 
+![Figure output](Graph.png)
+
 ## Conclusions
 We hope that this project will encourage Stata and its users to promote open science, where code and new programs are shared on platforms such as Github. Additionally, we hope that the "nhanesmort" program will serve as a preliminary example of how flexible Stata programs can increase access to publicly available datasets, such as NHANES.
