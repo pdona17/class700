@@ -1,10 +1,11 @@
 *** Advanced stata programming Project
 *5/16/2023
-*Replicate figure of US mortality from 1959-2017 from "twoway" page on website.
 
 
-capture program drop nhanesmort
-program define nhanesmort
+qui{
+	
+	capture program drop nhanesmort
+	program define nhanesmort
 	
 	syntax , [yearstart (int 4)] [yearend (int 4)]
 	
@@ -29,27 +30,23 @@ program define nhanesmort
 	}
 	
 	use mortdata, clear
-	line deaths year
+	
+	gen deaths1k = deaths / 1000
+	
+	#delimit ;
+	line deaths1k year,
+	xtit("Year")
+	ytit("Deaths in thousands")
+	title("United States Mortality Trends")
+	;
+	#delimit cr
 
 
 end
 
-nhanesmort, yearstart(1959) yearend(1960)
+nhanesmort, yearstart(1960) yearend(1970)
 	
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
 }
