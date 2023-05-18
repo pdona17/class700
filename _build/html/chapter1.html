@@ -159,7 +159,7 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Abstract</a></li>
 <li class="toctree-l1"><a class="reference internal" href="chapter2.html">Output using Stata <em>dyndoc</em> command</a></li>
-<li class="toctree-l1"><a class="reference internal" href="chapter3.html"><em>nhanesmort</em> Stata Program Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chapter3.html"><em>nbermort</em> Stata Program Code</a></li>
 </ul>
 
     </div>
@@ -384,20 +384,20 @@ document.write(`
 </section>
 <section id="background">
 <h2>Background<a class="headerlink" href="#background" title="Permalink to this heading">#</a></h2>
-<p>Stata is a useful statistical software package that can perform many types of analyses. However, Stata is lacking in the ability to push content to the internet when compared to other programs, such as R or Python. Additionally, the National Health and Nutrition Examination Survey (NHANES) is one of the largest population-based samples in the United States that collects a variety of health outcomes. However, many Stata users may find it difficult to access NHANES files because of incompatible formats. Therefore, as an initial proof of concept, we have designed a Stata program that can easily access mortality data from 1959-2017 that could be linked with NHANES data.</p>
+<p>Stata is a useful statistical software package that can perform many types of analyses. However, Stata is lacking in the ability to push content to the internet when compared to other programs, such as R or Python. Additionally, the National Health and Nutrition Examination Survey (NHANES) is one of the largest population-based samples in the United States that collects a variety of health outcomes and can be linked to mortality data. However, many Stata users may find it difficult to access NHANES files because of incompatible formats. Therefore, as an initial proof of concept, we have designed a Stata program that can easily access mortality data from the National Bureau of Economic Research (NBER), between 1959-2017, that could be linked with NHANES data.</p>
 </section>
 <section id="methods">
 <h2>Methods<a class="headerlink" href="#methods" title="Permalink to this heading">#</a></h2>
-<p>Using Jupyter software, we created a book to demonstrate 1) How to openly publish while using Stata and 2) How our Stata program works to import mortality data from NHANES. The code for our Stata program, called “nhanesmort” is provided in the last chapter of this book.</p>
+<p>Using Jupyter software, we created a book to demonstrate 1) How to openly publish while using Stata and 2) How our Stata program works to import mortality data from NBER. The code for our Stata program, called “nbermort” is provided in the last chapter of this book.</p>
 </section>
 <section id="results">
 <h2>Results<a class="headerlink" href="#results" title="Permalink to this heading">#</a></h2>
-<p>The program will import mortality data from the national Bureau of Economic Research for any specified range between the years of 1959 and 2017. For instance, the user may enter 1960 and 1970 and the program will import mortality data from each of the years between 1960 and 1970. Then, the program will construct a line graph to show the trends in mortality over the user-specified time frame.</p>
+<p>The program will import mortality data from the NBER for any specified range between the years of 1959 and 2017. For instance, the user may enter 1960 and 1970 and the program will import mortality data from each of the years between 1960 and 1970. Then, the program will construct a line graph to show the trends in mortality over the user-specified time frame.</p>
 <p><img alt="Figure output" src="_images/Graph.png" /></p>
 </section>
 <section id="conclusions">
 <h2>Conclusions<a class="headerlink" href="#conclusions" title="Permalink to this heading">#</a></h2>
-<p>We hope that this project will encourage Stata and its users to promote open science, where code and new programs are shared on platforms such as Github. Additionally, we hope that the “nhanesmort” program will serve as a preliminary example of how flexible Stata programs can increase access to publicly available datasets, such as NHANES.</p>
+<p>We hope that this project will encourage Stata and its users to promote open science, where code and new programs are shared on platforms such as Github. Additionally, we hope that the “nbermort” program will serve as a preliminary example of how flexible Stata programs can increase access to publicly available data, such as NBER and NHANES.</p>
 </section>
 </section>
 

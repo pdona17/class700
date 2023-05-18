@@ -1,0 +1,21 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="stmarkdown.css">
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+</script>
+</head>
+<h1><a href="#increasing-access-to-united-states-mortality-data-via-a-user-friendly-stata-program" id="increasing-access-to-united-states-mortality-data-via-a-user-friendly-stata-program">Increasing Access to United States Mortality Data via a User-friendly Stata Program</a></h1>
+<p>Patrick Donahue, MS</p>
+<p>Johns Hopkins Bloomberg School of Public Health</p>
+<p><strong>Background:</strong> Stata is a useful statistical software package that can perform many types of analyses. However, Stata is lacking in the ability to push content to the internet when compared to other programs, such as R or Python. Additionally, the National Health and Nutrition Examination Survey (NHANES) is one of the largest population-based samples in the United States that collects a variety of health outcomes. However, many Stata users may find it difficult to access NHANES files because of incompatible formats. Therefore, as an initial proof of concept, we have designed a Stata program that can easily access mortality data from 1959-2017 that could be linked with NHANES data.</p>
+<p><strong>Methods:</strong> Using Jupyter software, we created a book to demonstrate 1) How to openly publish while using Stata and 2) How our Stata program works to import mortality data from NHANES. The code for our Stata program, called &ldquo;nhanesmort&rdquo; is provided in the last chapter of this book.</p>
+<p><strong>Results:</strong> The program will import mortality data from the national Bureau of Economic Research for any specified range between the years of 1959 and 2017. For instance, the user may enter 1960 and 1970 and the program will import mortality data from each of the years between 1960 and 1970. Then, the program will construct a line graph to show the trends in mortality over the user-specified time frame.</p>
+<pre><code>. nhanesmort, yearstart(1960) yearend(1970)
+
+. 
+</code></pre>
+<p><img src="Graph.svg" ></p>
+<p><strong>Conclusions:</strong> We hope that this project will encourage Stata and its users to promote open science, where code and new programs are shared on platforms such as Github. Additionally, we hope that the &ldquo;nhanesmort&rdquo; program will serve as a preliminary example of how flexible Stata programs can increase access to publicly available datasets, such as NHANES.</p>

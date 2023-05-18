@@ -4,8 +4,8 @@
 
 qui{
 	
-	capture program drop nhanesmort
-	program define nhanesmort
+	capture program drop nbermort
+	program define nbermort
 	
 	syntax , [yearstart (int 4)] [yearend (int 4)]
 	
@@ -44,7 +44,7 @@ qui{
 
 end
 
-nhanesmort, yearstart(1960) yearend(1970)
+nbermort, yearstart(1960) yearend(1970)
 	
 	
 	

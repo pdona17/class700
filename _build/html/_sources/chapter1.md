@@ -6,15 +6,15 @@
 ## Increasing access to United States Mortality Data via a User-friendly Stata Program
 
 ## Background
-Stata is a useful statistical software package that can perform many types of analyses. However, Stata is lacking in the ability to push content to the internet when compared to other programs, such as R or Python. Additionally, the National Health and Nutrition Examination Survey (NHANES) is one of the largest population-based samples in the United States that collects a variety of health outcomes. However, many Stata users may find it difficult to access NHANES files because of incompatible formats. Therefore, as an initial proof of concept, we have designed a Stata program that can easily access mortality data from 1959-2017 that could be linked with NHANES data.
+Stata is a useful statistical software package that can perform many types of analyses. However, Stata is lacking in the ability to push content to the internet when compared to other programs, such as R or Python. Additionally, the National Health and Nutrition Examination Survey (NHANES) is one of the largest population-based samples in the United States that collects a variety of health outcomes and can be linked to mortality data. However, many Stata users may find it difficult to access NHANES files because of incompatible formats. Therefore, as an initial proof of concept, we have designed a Stata program that can easily access mortality data from the National Bureau of Economic Research (NBER), between 1959-2017, that could be linked with NHANES data.
 
 ## Methods
-Using Jupyter software, we created a book to demonstrate 1) How to openly publish while using Stata and 2) How our Stata program works to import mortality data from NHANES. The code for our Stata program, called "nhanesmort" is provided in the last chapter of this book.
+Using Jupyter software, we created a book to demonstrate 1) How to openly publish while using Stata and 2) How our Stata program works to import mortality data from NBER. The code for our Stata program, called "nbermort" is provided in the last chapter of this book.
 
 ## Results
-The program will import mortality data from the national Bureau of Economic Research for any specified range between the years of 1959 and 2017. For instance, the user may enter 1960 and 1970 and the program will import mortality data from each of the years between 1960 and 1970. Then, the program will construct a line graph to show the trends in mortality over the user-specified time frame.
+The program will import mortality data from the NBER for any specified range between the years of 1959 and 2017. For instance, the user may enter 1960 and 1970 and the program will import mortality data from each of the years between 1960 and 1970. Then, the program will construct a line graph to show the trends in mortality over the user-specified time frame.
 
 ![Figure output](Graph.png)
 
 ## Conclusions
-We hope that this project will encourage Stata and its users to promote open science, where code and new programs are shared on platforms such as Github. Additionally, we hope that the "nhanesmort" program will serve as a preliminary example of how flexible Stata programs can increase access to publicly available datasets, such as NHANES.
+We hope that this project will encourage Stata and its users to promote open science, where code and new programs are shared on platforms such as Github. Additionally, we hope that the "nbermort" program will serve as a preliminary example of how flexible Stata programs can increase access to publicly available data, such as NBER and NHANES.
