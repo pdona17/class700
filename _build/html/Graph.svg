@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- This is a Stata 17.0 generated SVG file (http://www.stata.com) -->
+
+<svg version="1.1" width="5.500in" height="4.000in" viewBox="0 0 3960 2880" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>Stata Graph - Graph</desc>
+	<rect x="0" y="0" width="3960" height="2880" style="fill:#EAF2F3;stroke:none"/>
+	<rect x="0.00" y="0.00" width="3959.88" height="2880.00" style="fill:#EAF2F3"/>
+	<rect x="2.88" y="2.88" width="3954.12" height="2874.24" style="fill:none;stroke:#EAF2F3;stroke-width:5.76"/>
+	<rect x="390.80" y="275.35" width="3468.22" height="2213.83" style="fill:#FFFFFF"/>
+	<rect x="393.68" y="278.23" width="3462.46" height="2208.07" style="fill:none;stroke:#FFFFFF;stroke-width:5.76"/>
+	<line x1="390.80" y1="2425.82" x2="3859.02" y2="2425.82" style="stroke:#EAF2F3;stroke-width:8.64"/>
+	<line x1="390.80" y1="2008.40" x2="3859.02" y2="2008.40" style="stroke:#EAF2F3;stroke-width:8.64"/>
+	<line x1="390.80" y1="1590.98" x2="3859.02" y2="1590.98" style="stroke:#EAF2F3;stroke-width:8.64"/>
+	<line x1="390.80" y1="1173.56" x2="3859.02" y2="1173.56" style="stroke:#EAF2F3;stroke-width:8.64"/>
+	<line x1="390.80" y1="756.14" x2="3859.02" y2="756.14" style="stroke:#EAF2F3;stroke-width:8.64"/>
+	<line x1="390.80" y1="338.71" x2="3859.02" y2="338.71" style="stroke:#EAF2F3;stroke-width:8.64"/>
+	<path d=" M454.04 2325.83 L788.29 2413.20 L1122.41 1952.34 L1456.54 1477.99 L1790.66 1607.32 L2124.91 1356.22 L2459.04 1063.91 L2793.16 1162.54 L3127.29 505.04 L3461.54 572.61 L3795.66 564.44" stroke-linejoin="round" style="fill:none;stroke:#1A476F;stroke-width:8.64"/>
+	<line x1="390.80" y1="2489.19" x2="390.80" y2="275.35" style="stroke:#000000;stroke-width:5.76"/>
+	<line x1="390.80" y1="2425.82" x2="350.83" y2="2425.82" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="300.72" y="2425.82" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 300.72,2425.82)" text-anchor="middle">1700</text>
+	<line x1="390.80" y1="2008.40" x2="350.83" y2="2008.40" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="300.72" y="2008.40" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 300.72,2008.40)" text-anchor="middle">1750</text>
+	<line x1="390.80" y1="1590.98" x2="350.83" y2="1590.98" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="300.72" y="1590.98" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 300.72,1590.98)" text-anchor="middle">1800</text>
+	<line x1="390.80" y1="1173.56" x2="350.83" y2="1173.56" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="300.72" y="1173.56" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 300.72,1173.56)" text-anchor="middle">1850</text>
+	<line x1="390.80" y1="756.14" x2="350.83" y2="756.14" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="300.72" y="756.14" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 300.72,756.14)" text-anchor="middle">1900</text>
+	<line x1="390.80" y1="338.71" x2="350.83" y2="338.71" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="300.72" y="338.71" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 300.72,338.71)" text-anchor="middle">1950</text>
+	<text x="190.71" y="1382.33" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" transform="rotate(-90 190.71,1382.33)" text-anchor="middle">Deaths in thousands</text>
+	<line x1="390.80" y1="2489.19" x2="3859.02" y2="2489.19" style="stroke:#000000;stroke-width:5.76"/>
+	<line x1="454.16" y1="2489.19" x2="454.16" y2="2529.16" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="454.16" y="2619.14" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" text-anchor="middle">1960</text>
+	<line x1="1122.41" y1="2489.19" x2="1122.41" y2="2529.16" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="1122.41" y="2619.14" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" text-anchor="middle">1962</text>
+	<line x1="1790.79" y1="2489.19" x2="1790.79" y2="2529.16" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="1790.79" y="2619.14" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" text-anchor="middle">1964</text>
+	<line x1="2459.04" y1="2489.19" x2="2459.04" y2="2529.16" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="2459.04" y="2619.14" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" text-anchor="middle">1966</text>
+	<line x1="3127.41" y1="2489.19" x2="3127.41" y2="2529.16" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="3127.41" y="2619.14" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" text-anchor="middle">1968</text>
+	<line x1="3795.66" y1="2489.19" x2="3795.66" y2="2529.16" style="stroke:#000000;stroke-width:5.76"/>
+	<text x="3795.66" y="2619.14" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" text-anchor="middle">1970</text>
+	<text x="2124.91" y="2729.16" style="font-family:'Helvetica';font-size:99.99px;fill:#000000" text-anchor="middle">Year</text>
+	<text x="2124.91" y="215.98" style="font-family:'Helvetica';font-size:139.96px;fill:#1E2D53" text-anchor="middle">United States Mortality Trends</text>
+</svg>
