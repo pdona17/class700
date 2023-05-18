@@ -1,10 +1,10 @@
-# *nhanesmort* Stata Program Code
+# *nbermort* Stata Program Code
 
 ```Stata
 qui{
 	
-	capture program drop nhanesmort
-	program define nhanesmort
+	capture program drop nbermort
+	program define nbersmort
 	
 	syntax , [yearstart (int 4)] [yearend (int 4)]
 	
@@ -42,7 +42,7 @@ qui{
 
 end
 
-nhanesmort, yearstart(1960) yearend(1970)
+nbermort, yearstart(1960) yearend(1970)
 	
 	
 	
